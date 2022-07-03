@@ -1,9 +1,40 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.venom{
+
+.venom {
     color: crimson;
+}
+
+section {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half img {
+    width: 80%;
+}
+
+.linkbutton {
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(207, 151, 151));
+    padding: 10px 40px;
+    border-radius: 5px;
+
+}
+
+.topbanner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
