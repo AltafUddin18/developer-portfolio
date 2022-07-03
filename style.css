@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .venom {
     color: crimson;
 }
@@ -43,4 +47,31 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experienceitem {
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#fullstack {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, orange) 30;
+    border-image-slice: 1;
+}
+
+#babyweb {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan) 30;
+    border-image-slice: 1;
 }
