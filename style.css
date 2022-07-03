@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half {
@@ -25,7 +26,6 @@ section {
 }
 
 .linkbutton {
-    margin-top: 100px;
     color: white;
     text-decoration: none;
     background-image: linear-gradient(rgb(255, 0, 0), rgb(207, 151, 151));
@@ -37,4 +37,10 @@ section {
 .topbanner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.carnage {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
